@@ -15,7 +15,7 @@ class App extends Component {
       <>
         <div className="main-container">
           <Heading
-            title="I am trying CICD 2
+            title="Contact us
 "
           />
 
