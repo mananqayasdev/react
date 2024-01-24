@@ -36,3 +36,10 @@ body {
   gap: 20px;
   margin-top: 30px;
 }
+
+.states {
+  width: 230px;
+
+  margin: 0 auto;
+  padding: 20px;
+}

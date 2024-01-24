@@ -1,0 +1,53 @@
+.drop-down {
+  margin-top: 10px;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  border-bottom: 12.5px solid #555;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.minus-icon {
+  width: 28px;
+}
+.minus:hover svg {
+  cursor: pointer;
+  stroke: green;
+}
+
+.plus-icon {
+  width: 28px;
+}
+.plus-icon:hover svg {
+  cursor: pointer;
+  stroke: green;
+}
+.mecca-center {
+  text-align: center;
+}
+.mecca-center {
+  text-align: center;
+}
+.horizontal {
+  height: 2px;
+  background-color: white;
+}
+
+.bottom-selector,
+.top-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}

@@ -6,6 +6,7 @@
   padding: 30px;
   border-radius: 15px;
   border: 1px solid #e4ebe4;
+  margin-top: 10px;
 }
 .card:hover {
   background-color: #fcfcfd;
