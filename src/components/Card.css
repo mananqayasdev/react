@@ -1,0 +1,25 @@
+.card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #e4ebe4;
+}
+.card:hover {
+  background-color: #fcfcfd;
+}
+
+.icon {
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #001e00;
+}
+p {
+  color: rgb(94, 109, 85);
+}
