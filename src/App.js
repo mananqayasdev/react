@@ -15,7 +15,7 @@ class App extends Component {
       <>
         <div className="main-container">
           <Heading
-            title="How can we help? 3
+            title="How can we help? 4, hope so
 "
           />
 
