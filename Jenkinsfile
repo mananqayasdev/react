@@ -31,8 +31,8 @@ pipeline {
                     script {
                         sh '''
                             ssh -o StrictHostKeyChecking=no ubuntu@54.245.145.148 "\
-docker pull $DOCKER_IMAGE:$BUILD_NUMBER && \
-docker run -d -p 80:80 $DOCKER_IMAGE:$BUILD_NUMBER"
+                            docker pull $DOCKER_IMAGE:$BUILD_NUMBER && \
+                        docker run -d -p 80:80 $DOCKER_IMAGE:$BUILD_NUMBER"
                         '''
                     }
                 }

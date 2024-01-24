@@ -15,7 +15,7 @@ class App extends Component {
       <>
         <div className="main-container">
           <Heading
-            title="Contact us Manan
+            title="Contact us Manan 2
 "
           />
 
